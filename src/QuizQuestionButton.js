@@ -5,11 +5,11 @@ class QuizQuestionButton extends Component {
     this.props.clickHandler(this.props.button_text)
   }
 
-render() {
-  return(
-    <li><button oClick={this.handleClick.bind(this)}>{this.props.button_text}</button></li>
-  )
-}
+  render() {
+    return(
+      <li><button oClick={this.handleClick.bind(this)}>{this.props.button_text}</button></li>
+    )
+  }
 }
 
 export default QuizQuestionButton
