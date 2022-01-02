@@ -11,7 +11,7 @@ class QuizQuestion extends Component {
       this.setState({ incorrectAnswer: false })
       this.props.showNextQuestionHandler()
     } else {
-      this.setState({ incorrectAnswer: SVGComponentTransferFunctionElement })
+      this.setState({ incorrectAnswer: true })
     }
   }
   render() {
